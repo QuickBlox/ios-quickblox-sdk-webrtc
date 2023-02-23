@@ -14,7 +14,7 @@ The QuickBlox WebRTC iOS SDK provides a set of APIs to manage audio and video ca
 You can also customize the user interface of the video call screen using the SDK.
 To use the QuickBlox WebRTC iOS SDK in your iOS application, you need to first create an account on the QuickBlox platform and obtain an application ID and authorization key.
 Once you have these, you can download the QuickBlox WebRTC iOS SDK from the [QuickBlox](https://quickblox.com) website and include it in your Xcode project.
-You can also use [CocoaPods](https://cocoapods.org) or [Swift Package Manager](https://www.swift.org/package-manager/) to install the SDK.
+To start using the QuickBlox iOS SDK, you can download it from the [QuickBlox](https://quickblox.com) website and add it to your Xcode project. You can use [Swift Package Manager](https://www.swift.org/package-manager/) to install the SDK.
 
 # Install
 
