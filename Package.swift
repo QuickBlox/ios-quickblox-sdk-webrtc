@@ -3,13 +3,13 @@
 import PackageDescription
 
 let package = Package(
-    name: "QuickBloxWebRTC",
+    name: "QuickbloxWebRTC",
     platforms: [
         .iOS(.v13)
     ],
     products: [
         .library(
-            name: "QuickBloxWebRTC",
+            name: "QuickbloxWebRTC",
             targets: ["QuickbloxWebRTC"]),
     ],
     dependencies: [

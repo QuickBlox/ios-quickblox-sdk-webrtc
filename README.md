@@ -1,6 +1,6 @@
 # QuickBloxWebRTC IOS SDK
 
-QuickBloxWebRTC iOS SDK ([Quickblox Framework](https://github.com/QuickBlox/ios-quickblox-sdk-webrtc/tree/master/QuickbloxWebRTC.xcframework))
+QuickBloxWebRTC iOS SDK ([QuickbloxWebRTC Framework](https://github.com/QuickBlox/ios-quickblox-sdk-webrtc/tree/master/QuickbloxWebRTC.xcframework))
 
 [QuickBlox](https://quickblox.com) is a cloud communication platform that provides a range of communication services such as messaging, video calling, voice calling, and push notifications. QuickBlox also provides a WebRTC iOS SDK that can be used to integrate video calling and audio calling capabilities in your iOS application.
 
@@ -18,14 +18,13 @@ You can also use [CocoaPods](https://cocoapods.org) or [Swift Package Manager](h
 
 QuickBlox WebRTC iOS SDK is available using the [Swift Package Manager](https://www.swift.org/package-manager/) (SPM) as of version 2.8.1.
 
-To add QuickBlox WebRTC iOS SDK to your project using SPM, you can follow these steps:
-
 1. Open your Xcode project and navigate to File > Swift Packages > Add Package Dependency.
-2. In the search bar, enter the QuickBlox repository URL: https://github.com/QuickBlox/ios-quickblox-sdk-webrtc.git
-3. Choose the branch "master" and click Next.
+2. In the search bar, enter the QuickBlox repository URL: https://github.com/QuickBlox/ios-quickblox-sdk-webrtc.git  and click Add Package.
+3. Xcode will then fetch the QuickBlox iOS SDK and you can add it to your project by clicking Add Package.
+4. You can then import QuickBlox modules into your code and use its API.
 
-Xcode will then fetch the QuickBlox WebRTC iOS SDK and add it to your project.
-You can then import QuickbloxWebRTC modules into your code and use its APIs.
+# Requirements
 
-It's worth noting that the Swift Package Manager requires Xcode 11 or later, and it's only available for macOS and iOS projects. 
-If you're working on an older version of Xcode, you can still use other dependency management tools like [CocoaPods](https://cocoapods.org) to install QuickBlox WebRTC iOS SDK.
+The Swift Package Manager requires Xcode 11 or later and is only available for macOS and iOS projects.
+* XCode 12+
+* iOS 13+
