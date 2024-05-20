@@ -44,26 +44,27 @@ typedef NS_ENUM(NSUInteger, QBRTCRecorderState) {
  QBRTCRecorder class interface.
  This class represents webrtc audio/video recorder.
  */
+__attribute__((deprecated("QBRTCRecorder is deprecated in version 3.0.0 and not supported.")))
 @interface QBRTCRecorder : NSObject
 
 /**
  Current output file url.
  */
-@property (strong, nonatomic, readonly, nullable) NSURL *outputFileURL;
+@property (strong, nonatomic, readonly, nullable) NSURL *outputFileURL __attribute__((deprecated("outputFileURL property is deprecated in version 3.0.0 and not supported.")));
 
 /**
  Recorder state.
  
  @see QBRTCRecorderState
  */
-@property (assign, atomic, readonly) QBRTCRecorderState state;
+@property (assign, atomic, readonly) QBRTCRecorderState state __attribute__((deprecated("state property is deprecated in version 3.0.0 and not supported.")));
 
 /**
  Determines whether microphone should be muted on record.
  
  @discussion Can be set at any time of class instance life.
  */
-@property (assign, nonatomic, getter=isMicrophoneMuted) BOOL microphoneMuted;
+@property (assign, nonatomic, getter=isMicrophoneMuted) BOOL microphoneMuted __attribute__((deprecated("microphoneMuted property is deprecated in version 3.0.0 and not supported.")));
 
 /**
  Determines whether local audio recording from the mic is enabled or not.
@@ -71,12 +72,12 @@ typedef NS_ENUM(NSUInteger, QBRTCRecorderState) {
  @discussion Use this property to stop and/or re-start local mic audio record. Use it, for example, if you need to turn off the local audio record or restart the audio unit.
  @remark Default value is YES.
  */
-@property (assign, nonatomic, getter=isLocalAudioEnabled) BOOL localAudioEnabled;
+@property (assign, nonatomic, getter=isLocalAudioEnabled) BOOL localAudioEnabled __attribute__((deprecated("localAudioEnabled property is deprecated in version 3.0.0 and not supported.")));
 
 /**
  Delegate that conforms to QBRTCRecorderDelegate protocol.
  */
-@property (weak, nonatomic, nullable) id<QBRTCRecorderDelegate> delegate;
+@property (weak, nonatomic, nullable) id<QBRTCRecorderDelegate> delegate __attribute__((deprecated("delegate property is deprecated in version 3.0.0 and not supported.")));
 
 // unavailable initializers
 - (instancetype)init NS_UNAVAILABLE;
@@ -99,7 +100,7 @@ typedef NS_ENUM(NSUInteger, QBRTCRecorderState) {
 - (void)setVideoRecordingWidth:(NSUInteger)width
                         height:(NSUInteger)height
                        bitrate:(NSUInteger)bitrate
-                           fps:(NSUInteger)fps;
+                           fps:(NSUInteger)fps __attribute__((deprecated("setVideoRecordingWidth:height:bitrate:fps: method is deprecated in version 3.0.0 and not supported.")));
 
 /**
  Set video recording orientation.
@@ -111,7 +112,7 @@ typedef NS_ENUM(NSUInteger, QBRTCRecorderState) {
  
  @remark Default is 0 degrees, e.g. landscape orientation.
  */
-- (void)setVideoRecordingRotation:(QBRTCVideoRotation)videoRotation;
+- (void)setVideoRecordingRotation:(QBRTCVideoRotation)videoRotation __attribute__((deprecated("setVideoRecordingRotation: method is deprecated in version 3.0.0 and not supported.")));
 
 /**
  Start record with url.
@@ -120,7 +121,7 @@ typedef NS_ENUM(NSUInteger, QBRTCRecorderState) {
  
  @note Url must contain mp4 extension.
  */
-- (void)startRecordWithFileURL:(NSURL *)url;
+- (void)startRecordWithFileURL:(NSURL *)url __attribute__((deprecated("startRecordWithFileURL: method is deprecated in version 3.0.0 and not supported.")));
 
 /**
  Stop record.
@@ -131,7 +132,7 @@ typedef NS_ENUM(NSUInteger, QBRTCRecorderState) {
  
  @note File url will be nil if record failed, didn't start or there was nothing to record.
  */
-- (void)stopRecord:(nullable void (^)(NSURL * _Nullable file))completion;
+- (void)stopRecord:(nullable void (^)(NSURL * _Nullable file))completion __attribute__((deprecated("stopRecord: method is deprecated in version 3.0.0 and not supported.")));
 
 @end
 

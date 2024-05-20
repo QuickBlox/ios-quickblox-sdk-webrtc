@@ -34,9 +34,6 @@
 #import <QuickbloxWebRTC/QBRTCTimer.h>
 #import <QuickbloxWebRTC/QBRTCRemoteVideoView.h>
 #import <QuickbloxWebRTC/QBRTCRecorder.h>
-#import <QuickbloxWebRTC/RTCVideoRenderer.h>
-#import <QuickbloxWebRTC/RTCVideoFrame.h>
-#import <QuickbloxWebRTC/RTCVideoFrameBuffer.h>
 
 /*
  *  Enterprise-only
@@ -47,7 +44,7 @@
 #import <QuickbloxWebRTC/QBRTCConferenceSession.h>
 #import <QuickbloxWebRTC/QBRTCConferenceClientDelegate.h>
 
-//! Framework version 2.8.1
+//! Framework version 3.0.0
 FOUNDATION_EXPORT NSString * const QuickbloxWebRTCFrameworkVersion;
 
 //! WebRTC revision 24472
