@@ -8,7 +8,7 @@
 #import <UIKit/UIKit.h>
 #import <AVFoundation/AVFoundation.h>
 
-#import "RTCVideoRenderer.h"
+#import <WebRTC/RTCVideoRenderer.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -29,9 +29,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 /**
  *  QBRTCRemoteVideoView is an RTCVideoRenderer which renders video frames in its
- *  bounds using OpenGLES 2.0.
+ *  bounds.
  */
-@interface QBRTCRemoteVideoView : UIView <RTCVideoRenderer>
+@interface QBRTCRemoteVideoView : UIView
 
 /**
  *  Determines whether MetalKit should be used for drawing video frames (when possible).
