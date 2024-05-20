@@ -8,7 +8,7 @@
 #import <Foundation/Foundation.h>
 #import <AVFoundation/AVFoundation.h>
 
-#import <QBRTCAudioSessionDelegate.h>
+#import "QBRTCAudioSessionDelegate.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -141,6 +141,89 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (BOOL)setConfiguration:(QBRTCAudioSessionConfiguration * _Nonnull)configuration
                   active:(BOOL)active;
+
+@end
+
+@interface QBRTCAudioSession (Deprecated)
+
+/**
+ *  Current audio device.
+ *
+ *  @remark QBRTCAudioDeviceNotSpecified if not initialized
+ *
+ *  @discussion Change this property value in order to change current audio device.
+ *
+ *  @note Audio device change is being performed on background thread and is not an instant operation.
+ *  Cannot be changed if QBRTCAudioSession is not initialized.
+ *
+ *  @warning Deprecated in 2.7.5*.
+ */
+@property (assign, nonatomic) QBRTCAudioDevice currentAudioDevice DEPRECATED_ATTRIBUTE;
+
+/**
+ *  Determines whether QBRTCAudioSession is initialized and have saved previous active audio session settings.
+ *
+ *  @warning Deprecated in 2.7.5*. Use 'isActive' instead.
+ */
+@property (nonatomic, readonly, getter=isInitialized) BOOL initialized
+DEPRECATED_MSG_ATTRIBUTE("Use 'isActive' instead.");
+
+/**
+ *  Initialize audio session if not initialized yet.
+ *
+ *  @discussion Initialization of QBRTCAudioSession will perform configuration of AVAudioSession shared instance.
+ *  using suggested default QBRTCAudioSessionConfiguration settings. Use 'initializeWithConfigurationBlock:' method
+ *  to perform in-depth audio session configuration.
+ *
+ *  @note Previous configuration will be saved. In order to restore it deinitialize QBRTCAudioSession using
+ *  'deinitialize' method.
+ *
+ *  @code
+ [[QBRTCAudioSession instance] initializeWithConfigurationBlock:^(QBRTCAudioSessionConfiguration *configuration) {
+ // adding blutetooth support
+ configuration.categoryOptions |= AVAudioSessionCategoryOptionAllowBluetooth;
+ configuration.categoryOptions |= AVAudioSessionCategoryOptionAllowBluetoothA2DP;
+ 
+ // adding airplay support
+ configuration.categoryOptions |= AVAudioSessionCategoryOptionAllowAirPlay;
+ 
+ if (_session.conferenceType == QBRTCConferenceTypeVideo) {
+ // setting mode to video chat to enable airplay audio and speaker only
+ configuration.mode = AVAudioSessionModeVideoChat;
+ }
+ }];
+ *  @endcode
+ *
+ *  @return Boolean value of whether operation was successful
+ *
+ *  @warning *Deprecated in 2.7.5*. Use 'setActive:' set to `YES` instead.
+ */
+- (BOOL)initialize __deprecated_msg("Use 'setActive:' set to `YES` instead.");
+
+/**
+ *  Initialize audio session if not initialized yet using configuration block.
+ *
+ *  @param configurationBlock configuration block
+ *
+ *  @see QBRTCAudioSessionConfiguration class.
+ *
+ *  @return Boolean value of whether operation was successful
+ *
+ *  @warning *Deprecated in 2.7.5*. Use 'setConfiguration:active:' instead.
+ */
+- (BOOL)initializeWithConfigurationBlock:(nullable void(^)(QBRTCAudioSessionConfiguration *configuration))configurationBlock __deprecated_msg("Use 'setConfiguration:' or 'setConfiguration::active:' instead.");
+
+/**
+ *  Deinitialize QBRTCAudioSession.
+ *
+ *  @note Previous AVAudioSession configuration will be restored (which was saved upon
+ *  QBRTCAudioSession initialization).
+ *
+ *  @return Boolean value of whether operation was successful
+ *
+ *  @warning *Deprecated in 2.7.5*. Use 'setActive:' set to `NO` instead.
+ */
+- (BOOL)deinitialize __deprecated_msg("Use 'setActive:' set to `NO` instead.");
 
 @end
 

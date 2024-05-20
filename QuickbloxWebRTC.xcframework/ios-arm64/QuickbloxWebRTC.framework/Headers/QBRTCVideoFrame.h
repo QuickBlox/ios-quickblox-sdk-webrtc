@@ -5,7 +5,7 @@
 //  Copyright (c) 2018 QuickBlox. All rights reserved.
 //
 
-#import <WebRTC/RTCVideoFrame.h>
+#import "RTCVideoFrame.h"
 
 /**
  *  Entity for storing pixel buffer and corresponding information.
