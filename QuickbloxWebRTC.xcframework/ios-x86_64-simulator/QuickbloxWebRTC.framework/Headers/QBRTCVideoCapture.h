@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
-@class RTCVideoFrame;
+@class QBRTCVideoFrame;
 @class QBRTCLocalVideoTrack;
 
 /**
@@ -41,7 +41,7 @@
  *
  *  @param frame video frame to send
  */
-- (void)sendVideoFrame:(__kindof RTCVideoFrame *)frame;
+- (void)sendVideoFrame:(__kindof QBRTCVideoFrame *)frame;
 
 /**
  *  Adapt frames to a specific width, height and fps before sending.

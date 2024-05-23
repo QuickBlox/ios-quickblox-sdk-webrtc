@@ -8,8 +8,6 @@
 #import <UIKit/UIKit.h>
 #import <AVFoundation/AVFoundation.h>
 
-#import <WebRTC/RTCVideoRenderer.h>
-
 NS_ASSUME_NONNULL_BEGIN
 
 @class QBRTCRemoteVideoView;

@@ -5,12 +5,12 @@
 //  Copyright (c) 2018 QuickBlox. All rights reserved.
 //
 
-#import <WebRTC/RTCVideoFrame.h>
-
 /**
  *  Entity for storing pixel buffer and corresponding information.
  */
-@interface QBRTCVideoFrame : RTCVideoFrame
+@interface QBRTCVideoFrame : NSObject
+//#import <WebRTC/WebRTC.h>
+//@interface QBRTCVideoFrame : RTCVideoFrame
 
 @property (nonatomic, readonly) CVPixelBufferRef pixelBuffer;
 @property (nonatomic, readonly) QBRTCVideoRotation videoRotation;
@@ -23,5 +23,7 @@
  *  @return QBRTCVideoFrame instance
  */
 - (instancetype)initWithPixelBuffer:(CVPixelBufferRef)pixelBuffer videoRotation:(QBRTCVideoRotation)videoRotation;
+
+- (instancetype)initWithPixelBuffer:(CVPixelBufferRef)pixelBuffer videoRotation:(QBRTCVideoRotation)videoRotation timeStampNs:(int64_t)timeStampNs;
 
 @end

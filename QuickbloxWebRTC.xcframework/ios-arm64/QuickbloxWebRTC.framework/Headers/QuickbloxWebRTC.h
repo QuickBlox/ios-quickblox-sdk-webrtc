@@ -34,9 +34,6 @@
 #import <QuickbloxWebRTC/QBRTCTimer.h>
 #import <QuickbloxWebRTC/QBRTCRemoteVideoView.h>
 #import <QuickbloxWebRTC/QBRTCRecorder.h>
-#import <QuickbloxWebRTC/RTCVideoRenderer.h>
-#import <QuickbloxWebRTC/RTCVideoFrame.h>
-#import <QuickbloxWebRTC/RTCVideoFrameBuffer.h>
 
 /*
  *  Enterprise-only
