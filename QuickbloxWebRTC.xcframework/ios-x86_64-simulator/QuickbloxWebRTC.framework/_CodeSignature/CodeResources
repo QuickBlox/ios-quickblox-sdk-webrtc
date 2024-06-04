@@ -16,18 +16,6 @@
 		<data>
 		65dE4PrcWb0hit1SQZ8dGHfmDmI=
 		</data>
-		<key>Frameworks/WebRTC.framework/Info.plist</key>
-		<data>
-		c1VFbO6QpMiVTKOMKwoVQeaiTSk=
-		</data>
-		<key>Frameworks/WebRTC.framework/WebRTC</key>
-		<data>
-		kxoqOZEO1Ivw011FgVjT6PE+0G4=
-		</data>
-		<key>Frameworks/WebRTC.framework/_CodeSignature/CodeResources</key>
-		<data>
-		pbDV7DLRSpETx3CsvfozCnpy8A4=
-		</data>
 		<key>Headers/QBRTCAudioSession.h</key>
 		<data>
 		wKOPvL3ieYMrAjJTieJ+6b/hqdg=
@@ -166,7 +154,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Yhu19slejrVQzwH6K9xNCRelPtQ=
+		bMqNYVupibVj65An/ZxCNRqq+C8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -202,27 +190,6 @@
 			<key>hash2</key>
 			<data>
 			T4uUPU5mIgRvTz+yv0kWlnNV5SRvQnOVNNmHj9vVSO4=
-			</data>
-		</dict>
-		<key>Frameworks/WebRTC.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			q5fuUNZJX6OUnTqNhLQOrnlgJMKPQMvjN66cZMcKfn8=
-			</data>
-		</dict>
-		<key>Frameworks/WebRTC.framework/WebRTC</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			rmGiiKzz9asCSu1hvp+5hvbz4M9segP5AaGmb68NHQU=
-			</data>
-		</dict>
-		<key>Frameworks/WebRTC.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			zo/UkCE6juRsuM+wfDN2kUHQn14yxGCx70hnwUNGFTg=
 			</data>
 		</dict>
 		<key>Headers/QBRTCAudioSession.h</key>
