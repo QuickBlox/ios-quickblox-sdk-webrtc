@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "ios-google-webrtc",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/QuickBlox/ios-google-webrtc",
+      "state" : {
+        "revision" : "7959b17e0c1347a57913911c1e9deacd9e8181c9",
+        "version" : "124.0.0"
+      }
+    }
+  ],
+  "version" : 2
+}
