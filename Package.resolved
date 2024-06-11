@@ -8,6 +8,15 @@
         "revision" : "7959b17e0c1347a57913911c1e9deacd9e8181c9",
         "version" : "124.0.0"
       }
+    },
+    {
+      "identity" : "ios-quickblox-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/QuickBlox/ios-quickblox-sdk",
+      "state" : {
+        "revision" : "54fa973bf6a788529ae1b39ba5e301db94218385",
+        "version" : "2.19.0"
+      }
     }
   ],
   "version" : 2
