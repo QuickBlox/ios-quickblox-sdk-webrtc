@@ -4,30 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Frameworks/Quickblox.framework/Info.plist</key>
-		<data>
-		sSskrwA7UAVGEkdWEoy91O3qQN0=
-		</data>
-		<key>Frameworks/Quickblox.framework/Quickblox</key>
-		<data>
-		M+JWokV+NQgWZ82Ek+o2hUe77PM=
-		</data>
-		<key>Frameworks/Quickblox.framework/_CodeSignature/CodeResources</key>
-		<data>
-		7VrYSmRdCV46t2gdSTAPwIYIkJE=
-		</data>
-		<key>Frameworks/WebRTC.framework/Info.plist</key>
-		<data>
-		FIv9rVH1ZCB3hmJ04lXH8AoIZoY=
-		</data>
-		<key>Frameworks/WebRTC.framework/WebRTC</key>
-		<data>
-		W4ceV5NpdJGnk7yfMQrzCht0GBg=
-		</data>
-		<key>Frameworks/WebRTC.framework/_CodeSignature/CodeResources</key>
-		<data>
-		Fy3XkE4f+tikwxuKeE6rxiBtoz0=
-		</data>
 		<key>Headers/QBRTCAudioSession.h</key>
 		<data>
 		wKOPvL3ieYMrAjJTieJ+6b/hqdg=
@@ -183,48 +159,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Frameworks/Quickblox.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Akqr4iXfgexA32uJ/nR62g5YLBgpBueSp8Kgo7QM3LM=
-			</data>
-		</dict>
-		<key>Frameworks/Quickblox.framework/Quickblox</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			WXdyleXXXpGN3/7z/JHscVbqtwKjKMJ5fuP1s4VrhW0=
-			</data>
-		</dict>
-		<key>Frameworks/Quickblox.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			1w4tOlh2dcnDtZ5eLAXkfeQfFNGkaLVN61ExHEkO0L8=
-			</data>
-		</dict>
-		<key>Frameworks/WebRTC.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			zga1Wv2uEz+/aC8vBuqOL9aifZAOf4LJR6qSmnF/dsw=
-			</data>
-		</dict>
-		<key>Frameworks/WebRTC.framework/WebRTC</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			m595mV6/p5Bmsds+tEdnyAXLGdURonyJ9tblBj882mQ=
-			</data>
-		</dict>
-		<key>Frameworks/WebRTC.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			sbl0Gkc2DLT5R3THzQDxq8+jkscMpEtknAT4UDUakEY=
-			</data>
-		</dict>
 		<key>Headers/QBRTCAudioSession.h</key>
 		<dict>
 			<key>hash2</key>
