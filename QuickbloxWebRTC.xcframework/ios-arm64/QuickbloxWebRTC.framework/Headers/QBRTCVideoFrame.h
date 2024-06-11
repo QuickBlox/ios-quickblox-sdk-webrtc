@@ -9,8 +9,6 @@
  *  Entity for storing pixel buffer and corresponding information.
  */
 @interface QBRTCVideoFrame : NSObject
-//#import <WebRTC/WebRTC.h>
-//@interface QBRTCVideoFrame : RTCVideoFrame
 
 @property (nonatomic, readonly) CVPixelBufferRef pixelBuffer;
 @property (nonatomic, readonly) QBRTCVideoRotation videoRotation;
