@@ -62,7 +62,7 @@ audioStreamDescription:(const AudioStreamBasicDescription)audioStreamDescription
  *
  *  @see QBRTCAudioTrackSinkInterface
  */
-- (void)addSink:(id<QBRTCAudioTrackSinkInterface>)sink __attribute__((deprecated("addSink: method is deprecated in version 3.0.0 and not supported.")));;
+- (void)addSink:(id<QBRTCAudioTrackSinkInterface>)sink __attribute__((deprecated("addSink: method is deprecated in version 3.0.0 and not supported.")));
 
 /**
  *  Remove sink.
@@ -71,7 +71,7 @@ audioStreamDescription:(const AudioStreamBasicDescription)audioStreamDescription
  *
  *  @see QBRTCAudioTrackSinkInterface
  */
-- (void)removeSink:(id<QBRTCAudioTrackSinkInterface>)sink __attribute__((deprecated("removeSink: method is deprecated in version 3.0.0 and not supported.")));;
+- (void)removeSink:(id<QBRTCAudioTrackSinkInterface>)sink __attribute__((deprecated("removeSink: method is deprecated in version 3.0.0 and not supported.")));
 
 @end
 

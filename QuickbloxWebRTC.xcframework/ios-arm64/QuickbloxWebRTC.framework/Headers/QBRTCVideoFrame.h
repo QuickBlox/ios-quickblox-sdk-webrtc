@@ -22,6 +22,13 @@
  */
 - (instancetype)initWithPixelBuffer:(CVPixelBufferRef)pixelBuffer videoRotation:(QBRTCVideoRotation)videoRotation;
 
+/**
+ *  Initialize video frame with pixel buffer
+ *
+ *  @param pixelBuffer CVPixelBufferRef
+ *
+ *  @return QBRTCVideoFrame instance
+ */
 - (instancetype)initWithPixelBuffer:(CVPixelBufferRef)pixelBuffer videoRotation:(QBRTCVideoRotation)videoRotation timeStampNs:(int64_t)timeStampNs;
 
 @end
