@@ -47,5 +47,5 @@
 //! Framework version 3.0.0
 FOUNDATION_EXPORT NSString * const QuickbloxWebRTCFrameworkVersion;
 
-//! WebRTC revision 24472
+//! WebRTC revision 6367
 FOUNDATION_EXPORT NSString * const QuickbloxWebRTCRevision;
