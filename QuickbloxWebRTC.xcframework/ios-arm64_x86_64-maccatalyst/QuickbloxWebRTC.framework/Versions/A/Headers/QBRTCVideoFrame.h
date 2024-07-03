@@ -5,6 +5,8 @@
 //  Copyright (c) 2018 QuickBlox. All rights reserved.
 //
 
+#import <QuickbloxWebRTC/QBRTCTypes.h>
+
 /**
  *  Entity for storing pixel buffer and corresponding information.
  */

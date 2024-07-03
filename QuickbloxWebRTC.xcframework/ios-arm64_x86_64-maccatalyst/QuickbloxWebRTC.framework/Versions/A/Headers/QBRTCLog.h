@@ -5,7 +5,7 @@
 //  Copyright (c) 2018 QuickBlox. All rights reserved.
 //
 
-#import "QBRTCTypes.h"
+#import <QuickbloxWebRTC/QBRTCTypes.h>
 
 #if defined(__cplusplus)
 extern "C" void QBRTCLogEx(QBRTCLogLevel severity, NSString *logString);
