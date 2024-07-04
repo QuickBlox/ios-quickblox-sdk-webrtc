@@ -23,6 +23,24 @@
 @property (nonatomic, strong, readonly) dispatch_queue_t videoQueue;
 
 /**
+ * Executes a given block of code on the serial dispatch queue dedicated to video frame processing (`videoQueue`).
+ * This method is particularly useful for tasks that need to be performed in a sequential and thread-safe manner,
+ * such as processing video frames captured by an `AVCaptureVideoDataOutput` instance.
+ *
+ * If the current queue is already `videoQueue`, the block is executed immediately. Otherwise, the block is dispatched
+ * asynchronously to `videoQueue`, ensuring it executes in the correct order relative to other blocks on the queue.
+ *
+ * @param block The block of code to be executed on the `videoQueue`. This block will be dispatched asynchronously
+ *              if it is not already on the `videoQueue`.
+ *
+ * Usage:
+ * Use this method to schedule tasks that need to be performed on the `videoQueue`, ensuring that all video frame
+ * processing is handled in a consistent and orderly fashion. This helps avoid race conditions and ensures that video
+ * frames are processed in the order they are received.
+ */
+- (void)runInVideoQueue:(dispatch_block_t)block;
+
+/**
  *  Called when video track is set.
  *
  *  @param videoTrack local video track instance
