@@ -21,15 +21,8 @@ extern void QBRTCSetMinDebugLogLevel(QBRTCLogLevel severity);
 extern NSString *QBRTCFileName(const char* file_path);
 #endif
 
-#define QBRTCLogString(format, ...)                                         \
-    [NSString stringWithFormat:@"rtc::" format,                             \
-        ##__VA_ARGS__]
-
 #define QBRTCLogFormat(severity, format, ...)                               \
-    do {                                                                    \
-        NSString *logString = QBRTCLogString(format, ##__VA_ARGS__);        \
-        QBRTCLogEx(severity, logString);                                    \
-    } while (false)
+    QBRTCLogEx(severity, [NSString stringWithFormat:format, ##__VA_ARGS__]) \
 
 #define QBRTCLogVerbose(format, ...)                                        \
         QBRTCLogFormat(QBRTCLogLevelVerbose, format, ##__VA_ARGS__)         \
@@ -42,13 +35,5 @@ extern NSString *QBRTCFileName(const char* file_path);
 
 #define QBRTCLogError(format, ...)                                          \
         QBRTCLogFormat(QBRTCLogLevelErrors, format, ##__VA_ARGS__)          \
-
-#if !defined(DEBUG)
-    #define QBRTCLogDebug(format, ...) QBRTCLogInfo(format, ##__VA_ARGS__)
-#else
-    #define QBRTCLogDebug(format, ...)                                      \
-        do {                                                                \
-        } while (false)
-#endif
 
 #define QBRTCLog(format, ...) QBRTCLogInfo(format, ##__VA_ARGS__)

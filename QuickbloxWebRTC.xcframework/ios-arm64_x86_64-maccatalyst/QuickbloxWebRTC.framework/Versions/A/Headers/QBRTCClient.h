@@ -65,18 +65,4 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-@interface QBRTCClient (Deprecated)
-
-/**
- *  Deinitialize QuickbloxWebRTC
- *  Disables SSL subsystem and signaling
- *
- *  Call this method when you finish your work with QuickbloxWebRTC
- *
- *  @warning *Deprecated in 2.5*. From now on QBRTCCLient managing deinitialization of webrtc on itself. Just remove usage of this method.
- */
-+ (void)deinitializeRTC DEPRECATED_MSG_ATTRIBUTE("Deprecated in 2.5. From now on QBRTCCLient managing deinitialization of webrtc on itself. Just remove usage of this method.");
-
-@end
-
 NS_ASSUME_NONNULL_END

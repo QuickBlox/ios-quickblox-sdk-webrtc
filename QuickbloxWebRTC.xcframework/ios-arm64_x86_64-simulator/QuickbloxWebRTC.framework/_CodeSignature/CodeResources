@@ -42,7 +42,7 @@
 		</data>
 		<key>Headers/QBRTCClient.h</key>
 		<data>
-		ZZsyxahmN2pf8Pj1UAN3hCMUXH8=
+		O/Eq9eJ6BNEFSG0haIzqnLf+Gw8=
 		</data>
 		<key>Headers/QBRTCClientDelegate.h</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Headers/QBRTCConferenceClient.h</key>
 		<data>
-		nhCYnuow4SxwY0TvPLp6qOgqDrc=
+		oIHq4Yv373GbR9v+uV4HTHTUyxk=
 		</data>
 		<key>Headers/QBRTCConferenceClientDelegate.h</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>Headers/QBRTCLog.h</key>
 		<data>
-		nnLtFi3Ii3cE0yHLx+xGS7m7JWU=
+		UlFcgUMML+3SV+XFhNPZtp4hQCo=
 		</data>
 		<key>Headers/QBRTCMediaStream.h</key>
 		<data>
@@ -142,7 +142,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		VV6rqaSsIX5qjj0BAd5d0rmx1F8=
+		ixCl7AMs1KK2Ju6RyHQKDr8HRkw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -226,7 +226,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HD9uDYg+YBp3ZintzskyDB4XGWXtxWdOvMipQohiYaE=
+			js5rNLYstRKkrE38Y9+68/6ZabVawP0O2mBbsqxI4sk=
 			</data>
 		</dict>
 		<key>Headers/QBRTCClientDelegate.h</key>
@@ -240,7 +240,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dqOrX0xckDqPUbOw+zTBBOjGGQ/rxXOzsc/xEnnTCa8=
+			DmPXX1nJKx/Fq75M+cKcapJwiwU4wf8CSjxeCaScqDE=
 			</data>
 		</dict>
 		<key>Headers/QBRTCConferenceClientDelegate.h</key>
@@ -289,7 +289,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YbUMlqTFpRlUASvaFf5ImH6mafLxuBUNKYFhqusGqK8=
+			6+Hf+g7otwEziDL8v3Izj2R7io08baFHPhJRQguO574=
 			</data>
 		</dict>
 		<key>Headers/QBRTCMediaStream.h</key>

@@ -64,22 +64,4 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-@interface QBRTCConferenceClient (Deprecated)
-
-/**
- *  Send create session request.
- *
- *  @note Returns session without ID. When session will be created on server
- *  ID will be assigned and session will be returned in 'didCreateNewSession:' callback.
- *
- *  @see QBRTCConferenceClientDelegate
- *
- *  @param chatDialogID chat dialog ID
- *
- *  @warning Deprecated in 2.6.1. Use 'createSessionWithChatDialogID:conferenceType:' instead. This deprecated method will automatically create session with conference type QBRTCConferenceTypeVideo.
- */
-- (QBRTCConferenceSession *)createSessionWithChatDialogID:(NSString *)chatDialogID DEPRECATED_MSG_ATTRIBUTE("Deprecated in 2.6.1. Use 'createSessionWithChatDialogID:conferenceType:' instead. This deprecated method will automatically create session with conference type QBRTCConferenceTypeVideo.");
-
-@end
-
 NS_ASSUME_NONNULL_END
