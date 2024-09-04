@@ -10,7 +10,7 @@
 
 QuickBloxWebRTC iOS SDK ([QuickbloxWebRTC Framework](https://github.com/QuickBlox/ios-quickblox-sdk-webrtc/tree/master/QuickbloxWebRTC.xcframework))
 
-Last SDK Version: 2.8.1
+Last SDK Version: 3.0.0
 
 [QuickBlox](https://quickblox.com) is a cloud communication platform that provides a range of communication services such as messaging, video calling, voice calling, and push notifications. QuickBlox also provides a WebRTC iOS SDK that can be used to integrate video calling and audio calling capabilities in your iOS application.
 
@@ -26,7 +26,7 @@ To start using the QuickBlox iOS SDK, you can download it from the [QuickBlox](h
 
 # Install
 
-QuickBlox WebRTC iOS SDK is available using the [Swift Package Manager](https://www.swift.org/package-manager/) (SPM) as of version 2.8.1.
+QuickBlox WebRTC iOS SDK is available using the [Swift Package Manager](https://www.swift.org/package-manager/) (SPM) as of version 3.0.0.
 
 1. Open your Xcode project and navigate to File > Swift Packages > Add Package Dependency.
 2. In the search bar, enter the QuickBlox repository URL: https://github.com/QuickBlox/ios-quickblox-sdk-webrtc.git  and click Add Package.
@@ -38,5 +38,5 @@ For more information on spm customization options, you can refer to the [Apple D
 # Requirements
 
 The Swift Package Manager requires Xcode 11 or later and is only available for macOS and iOS projects.
-* XCode 12+
-* iOS 13+
+* XCode 14+
+* iOS 15+
