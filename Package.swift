@@ -13,8 +13,8 @@ let package = Package(
             targets: ["QuickbloxWebRTCWrapper"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/QuickBlox/ios-google-webrtc", .upToNextMajor(from: "124.0.0")),
-        .package(url: "https://github.com/QuickBlox/ios-quickblox-sdk", .upToNextMajor(from: "2.19.0")),
+        .package(url: "https://github.com/QuickBlox/ios-google-webrtc", .upToNextMajor(from: "124.0.2")),
+        .package(url: "https://github.com/QuickBlox/ios-quickblox-sdk", .upToNextMajor(from: "2.20.0")),
     ],
     targets: [
         .target(
