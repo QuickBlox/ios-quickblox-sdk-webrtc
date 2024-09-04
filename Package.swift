@@ -10,14 +10,23 @@ let package = Package(
     products: [
         .library(
             name: "QuickbloxWebRTC",
-            targets: ["QuickbloxWebRTC"]),
+            targets: ["QuickbloxWebRTCWrapper"]),
     ],
     dependencies: [
+        .package(url: "https://github.com/QuickBlox/ios-google-webrtc", .upToNextMajor(from: "124.0.2")),
+        .package(url: "https://github.com/QuickBlox/ios-quickblox-sdk", .upToNextMajor(from: "2.20.0")),
     ],
     targets: [
+        .target(
+            name: "QuickbloxWebRTCWrapper",
+            dependencies: ["QuickbloxWebRTC", 
+                .product(name: "WebRTC", package: "ios-google-webrtc"),
+                .product(name: "Quickblox", package: "ios-quickblox-sdk")],
+            path: "QuickbloxWebRTC-Wrapper"
+        ),
         .binaryTarget(
-                    name: "QuickbloxWebRTC",
-                    path: "QuickbloxWebRTC.xcframework"
-                ),
+            name: "QuickbloxWebRTC",
+            path: "QuickbloxWebRTC.xcframework"
+        ),
     ]
 )
