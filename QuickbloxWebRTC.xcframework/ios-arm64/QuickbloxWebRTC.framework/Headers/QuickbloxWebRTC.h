@@ -44,7 +44,7 @@
 #import <QuickbloxWebRTC/QBRTCConferenceSession.h>
 #import <QuickbloxWebRTC/QBRTCConferenceClientDelegate.h>
 
-//! Framework version 3.0.0
+//! Framework version 3.0.1
 FOUNDATION_EXPORT NSString * const QuickbloxWebRTCFrameworkVersion;
 
 //! WebRTC revision 6367
