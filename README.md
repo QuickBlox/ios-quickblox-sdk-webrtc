@@ -40,13 +40,13 @@ For more information on spm customization options, you can refer to the [Apple D
 ### CocoaPods
 
 1. To manage your project dependencies with CocoaPods, first create a `Podfile` in your project directory by running the following commands:
-'''bash
+```bash
    pod init
    touch Podfile
    open -e Podfile
-'''
+```
 2. Open the newly created `Podfile` and add the following lines of code, specifying the SDK version:
-'''Podfile
+```Podfile
    platform :ios, '13.0'
    use_frameworks!
 
@@ -54,13 +54,13 @@ For more information on spm customization options, you can refer to the [Apple D
        pod 'QuickBlox', '~> 2.20.0'
        pod 'Quickblox-WebRTC', '~> 3.0.0'
    end
-'''
+```
    Make sure to replace `'MyApp'` with your project's actual target name.
 
 3. Install QuickBlox dependencies in your project.
-'''bash
+```bash
    pod install
-'''
+```
 4. Now you're ready to integrate QuickBlox into your iOS project!
 
 
