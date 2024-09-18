@@ -10,7 +10,7 @@
 
 QuickBloxWebRTC iOS SDK ([QuickbloxWebRTC Framework](https://github.com/QuickBlox/ios-quickblox-sdk-webrtc/tree/master/QuickbloxWebRTC.xcframework))
 
-Last SDK Version: 3.0.1
+Last SDK Version: 3.1.0
 
 [QuickBlox](https://quickblox.com) is a cloud communication platform that provides a range of communication services such as messaging, video calling, voice calling, and push notifications. QuickBlox also provides a WebRTC iOS SDK that can be used to integrate video calling and audio calling capabilities in your iOS application.
 
@@ -26,6 +26,8 @@ To start using the QuickBlox iOS SDK, you can download it from the [QuickBlox](h
 
 # Install
 
+### Swift Package Manager
+
 QuickBlox WebRTC iOS SDK is available using the [Swift Package Manager](https://www.swift.org/package-manager/) (SPM) as of version 2.8.1.
 
 1. Open your Xcode project and navigate to File > Swift Packages > Add Package Dependency.
@@ -35,8 +37,35 @@ QuickBlox WebRTC iOS SDK is available using the [Swift Package Manager](https://
 
 For more information on spm customization options, you can refer to the [Apple Documentation](https://developer.apple.com/documentation/xcode/adding-package-dependencies-to-your-app).
 
+### CocoaPods
+
+1. To manage your project dependencies with CocoaPods, first create a `Podfile` in your project directory by running the following commands:
+'''bash
+   pod init
+   touch Podfile
+   open -e Podfile
+'''
+2. Open the newly created `Podfile` and add the following lines of code, specifying the SDK version:
+'''Podfile
+   platform :ios, '13.0'
+   use_frameworks!
+
+   target 'MyApp' do
+       pod 'QuickBlox', '~> 2.20.0'
+       pod 'Quickblox-WebRTC', '~> 3.0.0'
+   end
+'''
+   Make sure to replace `'MyApp'` with your project's actual target name.
+
+3. Install QuickBlox dependencies in your project.
+'''bash
+   pod install
+'''
+4. Now you're ready to integrate QuickBlox into your iOS project!
+
+
 # Requirements
 
 The Swift Package Manager requires Xcode 11 or later and is only available for macOS and iOS projects.
-* XCode 14+
-* iOS 15+
+* XCode 12+
+* iOS 13+
