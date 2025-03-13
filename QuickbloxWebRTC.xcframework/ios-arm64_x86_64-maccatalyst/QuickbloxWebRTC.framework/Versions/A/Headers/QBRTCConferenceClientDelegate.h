@@ -5,9 +5,9 @@
 //  Copyright (c) 2018 QuickBlox. All rights reserved.
 //
 
-#import "QBRTCBaseClientDelegate.h"
+#import <QuickbloxWebRTC/QBRTCBaseClientDelegate.h>
 
-#import "QBRTCTypes.h"
+#import <QuickbloxWebRTC/QBRTCTypes.h>
 
 @class QBRTCConferenceSession;
 

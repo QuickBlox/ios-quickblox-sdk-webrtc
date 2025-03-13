@@ -5,7 +5,7 @@
 //  Copyright (c) 2018 QuickBlox. All rights reserved.
 //
 
-#import "QBRTCBaseSession.h"
+#import <QuickbloxWebRTC/QBRTCBaseSession.h>
 
 @class QBRTCRecorder;
 
@@ -31,7 +31,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  *  @see UIDevice+QBPerformance, qbrtc_lowPerformanceDevices
  */
-@property (strong, nonatomic, nullable) QBRTCRecorder *recorder;
+@property (strong, nonatomic, nullable) QBRTCRecorder *recorder __attribute__((deprecated("outputFileURL property is deprecated in version 3.2.0 and not supported.")));
 
 /**
  *  Unique session identifier.

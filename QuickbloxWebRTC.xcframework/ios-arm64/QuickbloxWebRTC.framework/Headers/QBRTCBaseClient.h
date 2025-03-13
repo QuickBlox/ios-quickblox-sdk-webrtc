@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "QBRTCBaseClientDelegate.h"
+#import <QuickbloxWebRTC/QBRTCBaseClientDelegate.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

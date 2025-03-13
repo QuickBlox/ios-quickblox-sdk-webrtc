@@ -5,7 +5,7 @@
 //  Copyright (c) 2018 QuickBlox. All rights reserved.
 //
 
-#import "QBRTCVideoCapture.h"
+#import <QuickbloxWebRTC/QBRTCVideoCapture.h>
 
 #import <Foundation/Foundation.h>
 #import <AVFoundation/AVFoundation.h>
