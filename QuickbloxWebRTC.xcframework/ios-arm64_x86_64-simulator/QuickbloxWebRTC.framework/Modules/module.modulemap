@@ -1,6 +1,14 @@
-framework module QuickbloxWebRTC {
-  umbrella header "QuickbloxWebRTC.h"
-  export *
+//
+//  QuickbloxWebRTC.modulemap
+//  QuickbloxWebRTC
+//
+//  Created by QuickBlox Team on 14.03.2025.
+//  Copyright © 2025 QuickBlox. All rights reserved.
+//
 
-  module * { export * }
+framework module QuickbloxWebRTC {
+    umbrella header "QuickbloxWebRTC.h"
+    
+    export *
+    module * { export * }
 }

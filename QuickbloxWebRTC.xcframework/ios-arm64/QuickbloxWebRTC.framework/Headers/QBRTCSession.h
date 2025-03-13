@@ -31,7 +31,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  *  @see UIDevice+QBPerformance, qbrtc_lowPerformanceDevices
  */
-@property (strong, nonatomic, nullable) QBRTCRecorder *recorder __attribute__((deprecated("outputFileURL property is deprecated in version 3.2.0 and not supported.")));
+@property (strong, nonatomic, nullable) QBRTCRecorder *recorder __attribute__((deprecated("recorder property is deprecated in version 3.2.0 and not supported.")));
 
 /**
  *  Unique session identifier.

@@ -102,7 +102,7 @@
 		</data>
 		<key>Headers/QBRTCSession.h</key>
 		<data>
-		i8Pg6xN+Rk74ZTXe7upQYiL+jTc=
+		j1/MFJbmIhyi2IcoXiQ4hLgm9T8=
 		</data>
 		<key>Headers/QBRTCStatsReport.h</key>
 		<data>
@@ -146,7 +146,7 @@
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		0crM03RVzTqHxQEyoXq+ChQpkds=
+		t2tIPuypJ6NMzzguaObRZ8LZrvI=
 		</data>
 		<key>PrivateHeaders/QBRTCVideoFrame+Private.h</key>
 		<data>
@@ -331,7 +331,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rd/pTuquqMNl647Uqnb0cExQKiPNrJfsDLunDMlP6HQ=
+			hLNrrcY/7qXJLsePd2hhYJJiW4uNApOXyI8mDanf27w=
 			</data>
 		</dict>
 		<key>Headers/QBRTCStatsReport.h</key>
@@ -401,7 +401,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lnEXBBbwlUem3K5pciulI7JKF1eQ67WuQ4Gl5tV+dlE=
+			t0o3hsx129z/p64ZuA8xoMhQazMs4fyrBck6DsCk/wA=
 			</data>
 		</dict>
 		<key>PrivateHeaders/QBRTCVideoFrame+Private.h</key>
