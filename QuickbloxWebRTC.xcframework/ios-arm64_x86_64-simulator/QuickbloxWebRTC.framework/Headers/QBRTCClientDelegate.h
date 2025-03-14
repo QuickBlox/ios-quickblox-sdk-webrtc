@@ -41,17 +41,6 @@ NS_ASSUME_NONNULL_BEGIN
  *
  *  @param session  QBRTCSession instance
  *  @param userInfo The user information dictionary for the new session. May be nil.
- *
- *  Example usage:
- *  @code
- *  - (void)didReceiveNewSessionV2:(QBRTCSession *)session userInfo:(nullable NSDictionary<NSString *, NSString *> *)userInfo {
- *      if (session.state == QBRTCSessionStateNew) {
- *          NSLog(@"New session received");
- *      } else if (session.state == QBRTCSessionStatePending) {
- *          NSLog(@"Session is still pending...");
- *      }
- *  }
- *  @endcode
  */
 - (void)didReceiveNewSessionV2:(QBRTCSession *)session userInfo:(nullable NSDictionary <NSString *, NSString *> *)userInfo;
 
