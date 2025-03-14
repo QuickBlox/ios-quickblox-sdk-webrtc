@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/QBRTCAudioSession.h</key>
 		<data>
-		wKOPvL3ieYMrAjJTieJ+6b/hqdg=
+		2pwquzv9Iilk2tGvbJVlOGjRY1c=
 		</data>
 		<key>Headers/QBRTCAudioSessionConfiguration.h</key>
 		<data>
@@ -18,19 +18,19 @@
 		</data>
 		<key>Headers/QBRTCAudioTrack.h</key>
 		<data>
-		bebro+Spp+ZQ52tAHRkcaanaXtQ=
+		k5EF3Biseh0kdze8sgv7SkEHc/o=
 		</data>
 		<key>Headers/QBRTCBaseClient.h</key>
 		<data>
-		XkrM1U4x1391d1Nacf3+qYM9d+E=
+		GpsTLyE5PuKft/kkjmw2BrrIrJ4=
 		</data>
 		<key>Headers/QBRTCBaseClientDelegate.h</key>
 		<data>
-		q0p4OwaG4hPFciIHSfgFJJJWBrg=
+		Ioz5tOw8imQTCZulhZXm1TMt044=
 		</data>
 		<key>Headers/QBRTCBaseSession.h</key>
 		<data>
-		RZ6blKTKIKXRvKfEEaP4oDSDbqQ=
+		MdND6e8kM9fvRw6APu/qxksSPmE=
 		</data>
 		<key>Headers/QBRTCBitrateTracker.h</key>
 		<data>
@@ -38,31 +38,31 @@
 		</data>
 		<key>Headers/QBRTCCameraCapture.h</key>
 		<data>
-		gS7sLXhZYMkKi81/znHw8XMgYvY=
+		gpNxQm+SJYGH5kx4APVKyCkOlDU=
 		</data>
 		<key>Headers/QBRTCClient.h</key>
 		<data>
-		O/Eq9eJ6BNEFSG0haIzqnLf+Gw8=
+		DiSWhg4BwxlQXn5E21KCC8jMDWk=
 		</data>
 		<key>Headers/QBRTCClientDelegate.h</key>
 		<data>
-		bL8810hmKOo0UPJYLbA+KPCTdzg=
+		hsZ6oSMXv7sEeNtCI0x0w7AzX+E=
 		</data>
 		<key>Headers/QBRTCConferenceClient.h</key>
 		<data>
-		oIHq4Yv373GbR9v+uV4HTHTUyxk=
+		KlB8zBRcIPyS7nEeo/jM/sqaInU=
 		</data>
 		<key>Headers/QBRTCConferenceClientDelegate.h</key>
 		<data>
-		N5C0KLoD1W4BEbr7JoTGcgmTuEg=
+		sB7GEVxw8jFBag/7tq8omvSBKTc=
 		</data>
 		<key>Headers/QBRTCConferenceSession.h</key>
 		<data>
-		8StVnsO/M1SAf1UJjGjXhKik8Ck=
+		AU+7Tc6uH0h+WQ+jFh4CdJYAgpE=
 		</data>
 		<key>Headers/QBRTCConfig.h</key>
 		<data>
-		cRjqLugMk5EZnYbph3A17PmHFQ8=
+		7qjViAkJsCfTBGIXe7s0Z6U4POU=
 		</data>
 		<key>Headers/QBRTCICEServer.h</key>
 		<data>
@@ -70,11 +70,11 @@
 		</data>
 		<key>Headers/QBRTCLocalAudioTrack.h</key>
 		<data>
-		/pEZKmCCnN5g7HKw+Y5UK7MUd4M=
+		8Zq3zAxr6b+eyDjn55DeQbOFFTo=
 		</data>
 		<key>Headers/QBRTCLocalVideoTrack.h</key>
 		<data>
-		0AIFc9V5gVM1ZP1yGnLULKyT7Ow=
+		oGTRmSCvc0IRJc4n7yMeoziq4w4=
 		</data>
 		<key>Headers/QBRTCLog.h</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>Headers/QBRTCRecorder.h</key>
 		<data>
-		3Rt0MNFNJAy/KKqfQM5wFhut1NE=
+		KVyKHElB2ZIgTVdc2OszOLbx6U8=
 		</data>
 		<key>Headers/QBRTCRemoteVideoView.h</key>
 		<data>
@@ -102,7 +102,7 @@
 		</data>
 		<key>Headers/QBRTCSession.h</key>
 		<data>
-		VtxKf+fZI17AteyL3Hd2u4Zd+7s=
+		j1/MFJbmIhyi2IcoXiQ4hLgm9T8=
 		</data>
 		<key>Headers/QBRTCStatsReport.h</key>
 		<data>
@@ -122,7 +122,7 @@
 		</data>
 		<key>Headers/QBRTCVideoFormat.h</key>
 		<data>
-		1s/MRAqBnnO8ZvRHBKPPEIyxHC8=
+		US/ZqwTDD2Nxb+S7q2qYx7K1iYc=
 		</data>
 		<key>Headers/QBRTCVideoFrame.h</key>
 		<data>
@@ -130,11 +130,11 @@
 		</data>
 		<key>Headers/QBRTCVideoTrack.h</key>
 		<data>
-		SHL+X8kBVxQjxYXkqf3K5hLmCv0=
+		uHzMjxBOucl4/tcVh5Hw6O+D998=
 		</data>
 		<key>Headers/QuickbloxWebRTC.h</key>
 		<data>
-		FI8LusJHm2g7yMcarh9jwuLsze8=
+		2mbuhdzE6siPZoIZLX1dJuzK/L8=
 		</data>
 		<key>Headers/UIDevice+QBPerformance.h</key>
 		<data>
@@ -142,11 +142,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		EICLDRzFsirjuztdLOhmqra0508=
+		vMdebbUMVvEXyiAsgl6j1PP93hY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		0crM03RVzTqHxQEyoXq+ChQpkds=
+		t2tIPuypJ6NMzzguaObRZ8LZrvI=
 		</data>
 		<key>PrivateHeaders/QBRTCVideoFrame+Private.h</key>
 		<data>
@@ -163,7 +163,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4/PATC5CyfQAP5L4KfX1CY+/pjLJBH0JHCPB25dC4cs=
+			INJuWCBS1pLSEffN6cr19hk3HWPVWzah9di5tZp7aGY=
 			</data>
 		</dict>
 		<key>Headers/QBRTCAudioSessionConfiguration.h</key>
@@ -184,28 +184,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			b17198KjQ7Nc5FulgzEY+/HxUaHC2oophGO1TSyjQHA=
+			61clYLqCJMyFALI79P1m57QSQhsI6DqxUAQbj6tNFZI=
 			</data>
 		</dict>
 		<key>Headers/QBRTCBaseClient.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ysCqsYF9Ai0ysVEK6ETRZC1cfTNaa36IKUMeySjLr3c=
+			Yg0dKAI7hHqg0DIAtrlxxCh64GGvtmZyOCrJUE+ZOiE=
 			</data>
 		</dict>
 		<key>Headers/QBRTCBaseClientDelegate.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xhxvvJexB4YsrFZhMGp+4UpFzFYqg8j8lWQPrV1gzO4=
+			btoFDcWI+JDxL3xrAmrB+lqtJ6djHNI/AOMopTWACP8=
 			</data>
 		</dict>
 		<key>Headers/QBRTCBaseSession.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			py86kRmnpLrUx8e2OTYItY6P0ZnD+maMbzRgHV/mg8I=
+			zFXeUMkTdnlxGDQGkVKRA3EcgXbVDPxjmFYLiskOQgM=
 			</data>
 		</dict>
 		<key>Headers/QBRTCBitrateTracker.h</key>
@@ -219,49 +219,49 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6OMC3/h9+qIIdaO6fNwM2Z0KKhuqVxX/7UQCq2vhQjE=
+			X2XgzSw2tqtONw0+ZDL7+qhEh66PljLwYQfhypCTvDQ=
 			</data>
 		</dict>
 		<key>Headers/QBRTCClient.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			js5rNLYstRKkrE38Y9+68/6ZabVawP0O2mBbsqxI4sk=
+			dflIY3k72175kD4/tyCRxzxcyOmFQQI1hqXR8Az4O2I=
 			</data>
 		</dict>
 		<key>Headers/QBRTCClientDelegate.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			U8Yvs1Lg6SclCp9RKEs/emu3PWSbXzIU6DNbk+ljCis=
+			BgPb3CxQg6UZzS0xV+as+VsmkZO2ah5V6gue26Bl0lA=
 			</data>
 		</dict>
 		<key>Headers/QBRTCConferenceClient.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DmPXX1nJKx/Fq75M+cKcapJwiwU4wf8CSjxeCaScqDE=
+			9ASelXJRaTfc+1Fy6YEtNi3fIaJ0fxhbmZVEsq9JGt0=
 			</data>
 		</dict>
 		<key>Headers/QBRTCConferenceClientDelegate.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6dadaUsePiizPRBAvmQ5qdGmvzvn7zvzHGo1vqJS+e0=
+			HcZMwYYD3PnIACKC4u204vzZGx2pl0rFpcaB31i50aw=
 			</data>
 		</dict>
 		<key>Headers/QBRTCConferenceSession.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			h/vs6yWu2dFH2uECK/57o6vVYHME6ZIBpyhezcKwjPs=
+			RVOaGqu7LVCmrE5cZMFXQ9p9LtOFi1LKZmqIVAEUE+w=
 			</data>
 		</dict>
 		<key>Headers/QBRTCConfig.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aZFAfnnyGwLkctCJ/eYUA1A/RuaGvEvNviQOHumyBM4=
+			A3tRrJjNgJqcvRVlIK6K7ZvttCLFSeMNfdhFCQEHBVk=
 			</data>
 		</dict>
 		<key>Headers/QBRTCICEServer.h</key>
@@ -275,14 +275,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			M0EnfP/vIFxmMUEoY4XBF5j0jn0lQRg5OBaynqcL5zM=
+			yv2n+Ew5B00jnEIT3c1/tJVXD6XKM53VkGriZUNfZf8=
 			</data>
 		</dict>
 		<key>Headers/QBRTCLocalVideoTrack.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CmgdX5LhAHZWUtLxfW4U0JOSJ2HhI+ZU1tw3RH5iPDc=
+			tHVx9PrzkERfwVhwB3UrZGRhiM3ALqf2wJC1S9kXjlk=
 			</data>
 		</dict>
 		<key>Headers/QBRTCLog.h</key>
@@ -317,7 +317,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EeGQ3Raa02d7q477RTwEef/GmHAKiUSSRzbn5afjmIA=
+			McQvkpWvY0qX81+zDcd6GySlRp/ezN2ofrDxQqM/O8k=
 			</data>
 		</dict>
 		<key>Headers/QBRTCRemoteVideoView.h</key>
@@ -331,7 +331,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			skPPOXrg7d6D52DUVi2j9D0a5DKVz867fGsGDFFpwDE=
+			hLNrrcY/7qXJLsePd2hhYJJiW4uNApOXyI8mDanf27w=
 			</data>
 		</dict>
 		<key>Headers/QBRTCStatsReport.h</key>
@@ -366,7 +366,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vzwiCOAyySdkPPAU9l49pa/0K1lvkBZ1/okQhqVhXFg=
+			yyjGJdpJUpPrQ8WGL+15widTIEwLmwwbw9CwSQAvLRI=
 			</data>
 		</dict>
 		<key>Headers/QBRTCVideoFrame.h</key>
@@ -380,14 +380,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			X/9tWoLhbivsGHFSdCKxS3vvh1Gigd55kCzAOQu6w4E=
+			Z8St7vjb++QGXKTEAWg9cVFth3ncd7T71W/X066iQxQ=
 			</data>
 		</dict>
 		<key>Headers/QuickbloxWebRTC.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vSWlD+UrPUPILK5YkswqGW+1rz+BjZUOemqOkf0+Xsw=
+			SekUNOkJdMqJqBw7ma8PIdcM+eCORvjZNXSTSKybaI0=
 			</data>
 		</dict>
 		<key>Headers/UIDevice+QBPerformance.h</key>
@@ -401,7 +401,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lnEXBBbwlUem3K5pciulI7JKF1eQ67WuQ4Gl5tV+dlE=
+			t0o3hsx129z/p64ZuA8xoMhQazMs4fyrBck6DsCk/wA=
 			</data>
 		</dict>
 		<key>PrivateHeaders/QBRTCVideoFrame+Private.h</key>

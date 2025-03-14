@@ -5,7 +5,7 @@
 //  Copyright (c) 2018 QuickBlox. All rights reserved.
 //
 
-#import "QBRTCBaseSession.h"
+#import <QuickbloxWebRTC/QBRTCBaseSession.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

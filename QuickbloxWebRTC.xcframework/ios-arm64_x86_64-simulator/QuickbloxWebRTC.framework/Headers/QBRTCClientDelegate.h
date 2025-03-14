@@ -26,10 +26,23 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  *  Called when someone started a new session with you.
  *
+ *  @deprecated Deprecated in 3.2.0. Use `didReceiveNewSessionV2:userInfo:` instead.
+ *
  *  @param session  QBRTCSession instance
  *  @param userInfo The user information dictionary for the new session. May be nil.
  */
-- (void)didReceiveNewSession:(QBRTCSession *)session userInfo:(nullable NSDictionary <NSString *, NSString *> *)userInfo;
+- (void)didReceiveNewSession:(QBRTCSession *)session userInfo:(nullable NSDictionary <NSString *, NSString *> *)userInfo DEPRECATED_MSG_ATTRIBUTE("Deprecated in 3.2.0. Use didReceiveNewSessionV2:userInfo: instead.");
+
+/**
+ *  Called multiple times when a new session starts.
+ *
+ *  First, it is called when a new session is created.
+ *  Then, it continues to be called while the session is pending with an interval that depends on `QBRTCConfig.dialingTimeInterval`.
+ *
+ *  @param session  QBRTCSession instance
+ *  @param userInfo The user information dictionary for the new session. May be nil.
+ */
+- (void)didReceiveNewSessionV2:(QBRTCSession *)session userInfo:(nullable NSDictionary <NSString *, NSString *> *)userInfo;
 
 /**
  *  Called in case when user did not respond to your call within timeout.

@@ -5,7 +5,7 @@
 //  Copyright (c) 2018 QuickBlox. All rights reserved.
 //
 
-#import "QBRTCMediaStreamTrack.h"
+#import <QuickbloxWebRTC/QBRTCMediaStreamTrack.h>
 
 #import <CoreAudio/CoreAudioTypes.h>
 #import <CoreMedia/CoreMedia.h>
