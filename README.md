@@ -10,7 +10,7 @@
 
 QuickBloxWebRTC iOS SDK ([QuickbloxWebRTC Framework](https://github.com/QuickBlox/ios-quickblox-sdk-webrtc/tree/master/QuickbloxWebRTC.xcframework))
 
-Last SDK Version: 3.1.0
+Last SDK Version: 3.2.1
 
 [QuickBlox](https://quickblox.com) is a cloud communication platform that provides a range of communication services such as messaging, video calling, voice calling, and push notifications. QuickBlox also provides a WebRTC iOS SDK that can be used to integrate video calling and audio calling capabilities in your iOS application.
 
